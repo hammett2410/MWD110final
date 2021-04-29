@@ -1,0 +1,61 @@
+body {
+	padding: 0;
+  background-image: url("Show pic speia.jpg");
+  font-family: UnifrakturCook;
+  font-size: 1em;
+  color: whitesmoke;
+  margin: 0;
+}
+header{
+	padding: 0 15px;
+	background-color: rgba(0, 0, 0, 0.66);
+	margin: 0;
+}
+header h1{
+	padding: 0;
+	font-size: 2.5em;
+	color: whitesmoke;
+	margin: 0;
+}
+nav ul{
+	margin: 0;
+}
+nav ul li{
+	color: whitesmoke;
+	font-size: 1.5em;
+	display: inline-block;
+	list-style-type: none;
+	margin: 5px;
+}
+nav ul li a{
+color: whitesmoke;
+}
+.news {
+	padding: 50px;
+	font-size: 4.5em;
+	width: 400px;
+	left: 50;
+	float: left;
+	position: relative;
+}
+.sidebar {
+	background-color: rgba(0, 0, 0, 0.66);
+	height: 100%;
+ 	width: 100px;
+	position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+.pictures ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.tunez {
+	padding: 25px;
+	width: 300px;
+}
+

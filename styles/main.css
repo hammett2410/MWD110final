@@ -7,7 +7,9 @@ body {
   margin: 0;
 }
 header{
-	padding: 0 15px;
+	position: relative;
+	font-family: UnifrakturCook;
+	padding: 15px;
 	background-color: rgba(0, 0, 0, 0.66);
 	margin: 0;
 }
@@ -31,7 +33,8 @@ nav ul li a{
 color: whitesmoke;
 }
 .news {
-	padding: 50px;
+	font-family: 'Girassol';
+	padding: 110px;
 	font-size: 4.5em;
 	width: 400px;
 	left: 50;
@@ -41,10 +44,10 @@ color: whitesmoke;
 .sidebar {
 	background-color: rgba(0, 0, 0, 0.66);
 	height: 100%;
- 	width: 100px;
+ 	width: 80px;
 	position: fixed;
     z-index: 1;
-    top: 0;
+    top: 124px;
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
@@ -54,8 +57,47 @@ color: whitesmoke;
 	display: inline-block;
 	list-style-type: none;
 }
-.tunez {
+.tunez ul li{
+	position: relative;
 	padding: 25px;
 	width: 300px;
+	display: inline-block;
+	list-style-type: none;
 }
-
+.Videos{
+	padding: 25px;	
+	position: relative;
+}
+.bio{
+	font-size: 20px;
+	font-family: 'Girassol', cursive;
+	background-color: rgba(0, 0, 0, 0.66);
+	padding: 50px;
+	position: relative;
+}
+.calandar{
+	position: relative;
+	padding: 50px;
+}
+.media {
+	position: absolute;
+	transform: translate(-35%);
+}
+.media ul li{
+	list-style: none;
+	margin: 10px 30px;
+	display: inline-block;
+	font-size: 10px;
+	top: 20px;
+	left: 50px;
+	padding: 20px; 
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	transition: .5s;
+}
+.media ul li:hover {
+	color: #292929;
+	border: 1px solid #292929;
+	transition: .5s;
+}

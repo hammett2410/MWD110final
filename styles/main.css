@@ -42,9 +42,9 @@ color: whitesmoke;
 	position: relative;
 }
 .sidebar {
-	background-color: rgba(0, 0, 0, 0.66);
+	background-color: #7A480F;
 	height: 100%;
- 	width: 80px;
+ 	width: 93px;
 	position: fixed;
     z-index: 1;
     top: 124px;
@@ -64,9 +64,10 @@ color: whitesmoke;
 	display: inline-block;
 	list-style-type: none;
 }
-.Videos{
-	padding: 25px;	
+video{
+	height: auto;
 	position: relative;
+	border: 15px solid black;
 }
 .bio{
 	font-size: 20px;
@@ -100,4 +101,9 @@ color: whitesmoke;
 	color: #292929;
 	border: 1px solid #292929;
 	transition: .5s;
+}
+.contacts {
+	position: relative;
+	padding: 50px;
+	left: 200px;
 }
